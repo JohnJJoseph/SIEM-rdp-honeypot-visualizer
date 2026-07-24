@@ -1,12 +1,12 @@
 # Azure Sentinel RDP Honeypot Project with Real-Time Attack Mapping
 
 
-## 📌 Overview
+## Overview
 This project demonstrates how to set up a Windows VM in Microsoft Azure as an **RDP honeypot** to attract brute-force attacks, and how to monitor those attacks in **real-time using Microsoft Sentinel** on a world map.
 
 ---
 
-## 🧠 Objectives
+##  Objectives
 - Simulate a real-world attack surface using a deliberately exposed RDP port.
 - Capture failed login attempts.
 - Geolocate attacking IP addresses.
@@ -67,12 +67,12 @@ Modern SIEMs, such as **Microsoft Sentinel**, are central to Security Operation 
 9. **Writing Rules**  
    Define logic for log handling, routing, alerting, and automated response.
 
-> 💡 Effective log aggregation is essential for real-time threat detection and forensic analysis within any SIEM framework.
+> Effective log aggregation is essential for real-time threat detection and forensic analysis within any SIEM framework.
 
 ---
 
 
-## 🛠️ Setup Steps
+## Setup Steps
 
 ### 1. Create a Windows VM in Azure
 - Deploy a Windows 10 VM.
@@ -142,11 +142,11 @@ FAILED_RDP_WITH_GEO_CL
 ---
 
 ## 📌 Tools & Services Used
-- 🧠 Microsoft Azure
-- 🔍 Log Analytics
-- 🛡 Microsoft Sentinel
-- 💻 PowerShell
-- 🌐 IP Geolocation API (e.g., ip-api.com, ipinfo.io)
+- Microsoft Azure
+- Log Analytics
+- Microsoft Sentinel
+- PowerShell
+- IP Geolocation API (e.g., ip-api.com, ipinfo.io)
 
 ---
 
